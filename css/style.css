@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+:root{
+	--color-subtitulos-general:#707070;
+	--color-titulos: #000;
+	--color-primario: #00438b;
+	--color-azul: #00438b;
+	--color-naranja: #ff7700;
+	--fondo-gris: #f5f5f5;
+	--fondo-morado: #efdff7;
+	--color-morado: #b17cc6;
+	--fondo-aqua: #c6e6fd;
+	--color-aqua: #63b0e3;
+	--fondo-footer: #fff;
+}
+
+body{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	color: var(--color-general);
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero{
+	background-image: url("../img/hero-bg-4.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: white;
+	padding: 150px 130px;
+}
+
+#hero h1{
+	color: #fff;
+	font-family: 'Comfortaa';
+}
+
+#hero p{
+	color: #fff;
+	font-family: 'Open Sans';
+}
+
+#hero a{
+	font-family: 'Open Sans';
+}
+
+#features{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#features h1{
+	color: var(--color-titulos);
+	font-family: 'Comfortaa';
+	text-align: center;
+}
+
+#features p{
+	color: var(--color-titulos);
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+#features h5{
+	padding-top: 30px;
+	color: var(--color-titulos);
+	font-family: 'Comfortaa';
+}
+
+#features p{
+	color: var(--color-titulos);
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+#features i{
+	color: var(--color-primario);
+	font-size: 30px;
+}
+
+#agency{
+	padding-top: 80px;
+	background-color: var(--fondo-gris);
+	padding-bottom: 80px;
+}
+
+#agency h1{
+	color: var(--color-titulos);
+	font-family: 'Comfortaa';
+}
+
+#agency p{
+	color: var(--color-titulos);
+	font-family: 'Open Sans';
+}
+
+#agency h5{
+	color: var(--color-titulos);
+	font-family: 'Open Sans';
+}
+
+#CTA{
+	background-image: url("../img/hero-bg-2.jpg");
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: white;
+	padding: 100px 100px;
+}
+
+#CTA h2{
+	color: #000;
+	font-family: 'Comfortaa';
+}
+
+#CTA a{
+	color: #fff;
+	font-family: 'Open Sans';
+}
+
+#subscribe{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#subscribe h1{
+	color: #000;
+	font-family: 'Comfortaa';
+	padding-top: 30px;
+}
+
+#subscribe h4{
+	color: #000;
+	font-family: 'Comfortaa';
+}
+
+#subscribe p{
+	color: var(--color-titulos);
+	font-family: 'Open Sans';
+}
+
+
+
+header{
+	background-color: var(--color-primario);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
